@@ -1,4 +1,4 @@
-import twitter4j.{Status, StatusListener}
+import twitter4j.{Status, StatusListener, StallWarning}
 
 class StreamListener extends StatusListener {
   override def onStatus(Status status): Unit ={
@@ -12,6 +12,8 @@ class StreamListener extends StatusListener {
   override def onExection(e: Exception) = {
 
   }
+
+  override def onStallWarning(warning StallWarning)
 
 }
 
