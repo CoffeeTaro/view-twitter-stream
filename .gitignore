@@ -1,0 +1,16 @@
+*.class
+*.log
+*.un~
+/src/main/resources/twitter4j.properties
+/src/main/resources/application.conf
+.idea/
+
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+.history
+.cache
+.lib/
