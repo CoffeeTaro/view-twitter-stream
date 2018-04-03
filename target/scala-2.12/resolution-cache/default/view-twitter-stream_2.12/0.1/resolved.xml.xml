@@ -4,7 +4,7 @@
 		module="view-twitter-stream_2.12"
 		revision="0.1"
 		status="integration"
-		publication="20180403120346"
+		publication="20180403210436"
 	>
 		<description>
 		view-twitter-stream
@@ -32,5 +32,7 @@
 	<dependencies>
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.12.5" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.12.5" conf="scala-tool->default,optional(default);compile->default(compile)"/>
+		<dependency org="org.twitter4j" name="twitter4j-core" rev="4.0.6" conf="compile->default(compile)"/>
+		<dependency org="org.twitter4j" name="twitter4j-stream" rev="4.0.6" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
