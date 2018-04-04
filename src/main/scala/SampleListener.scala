@@ -10,7 +10,7 @@ class SampleListener extends StatusListener {
   }
   override def onScrubGeo(x1: Long, x2: Long): Unit = {}
   override def onException(e: Exception): Unit = {
-    e.printStackTrace()
+    // e.printStackTrace()
   }
   override def onStallWarning(stw: StallWarning): Unit = {
 

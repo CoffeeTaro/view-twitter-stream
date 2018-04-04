@@ -9,6 +9,6 @@ object main {
     twitterStream.addListener(listener)
 
     // 全世界のツイートを表示
-    twitterStream.sample()
+    twitterStream.sample("ja")
   }
 }
