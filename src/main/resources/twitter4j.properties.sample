@@ -1,0 +1,7 @@
+debug=false
+oauth.consumerKey=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+oauth.consumerSecret=bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+oauth.accessToken=cccccccccccccccccccccc
+oauth.accessTokenSecret=dddddddddddddddddddddd
+http.proxyHost=your.proxy.com
+http.proxyPort=8080
