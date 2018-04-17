@@ -7,7 +7,7 @@ Twitter Streaming APIを用いて実装
 
 - Java8
 - sbt
-- TwitterのAPI
+- TwitterのAPIキー https://apps.twitter.com/
 
 ```
 sbt:view-twitter-stream> sbtVersion
