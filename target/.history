@@ -1,2 +1,4 @@
 run
 assembly
+sbt-version
+sbtVersion
