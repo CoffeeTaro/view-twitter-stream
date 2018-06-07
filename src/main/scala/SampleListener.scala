@@ -3,6 +3,8 @@ import twitter4j._
 class SampleListener extends StatusListener {
   override def onStatus(status: Status): Unit ={
     println(status.getText())
+    // println(status.getId())
+    // println(status.getUser().getScreenName())
   }
 
   override def onDeletionNotice(notice: StatusDeletionNotice): Unit = {
